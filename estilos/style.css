@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: darkorange;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+}
+
+body header nav {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav ul li {
+  display: inline-block;
+}
+
+body header nav ul li a {
+  font-size: 25px;
+  font-family: arial;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  padding: 20px;
+  display: block;
+}
+
+body header nav ul li a:hover {
+  -webkit-box-shadow: 0 0 10px 10px inset green;
+          box-shadow: 0 0 10px 10px inset green;
+  border-radius: 10px;
+}
+
+/*-----------------------------------EACH--------------------------------------------------*/
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: brown;
+  width: 100%;
+}
+
+.marron-fondo {
+  width: 200px;
+  height: 150px;
+  background-image: url("../images/marron.jpg ");
+  background-repeat: no-repeat;
+  padding: auto;
+  border-radius: 5px;
+  border: solid violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.marron-fondo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.negro-fondo {
+  width: 200px;
+  height: 150px;
+  background-image: url("../images/negro.jpg ");
+  background-repeat: no-repeat;
+  padding: auto;
+  border-radius: 5px;
+  border: solid violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.negro-fondo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.salvaje-fondo {
+  width: 200px;
+  height: 150px;
+  background-image: url("../images/salvaje.jpg ");
+  background-repeat: no-repeat;
+  padding: auto;
+  border-radius: 5px;
+  border: solid violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.salvaje-fondo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+/*-----------------------------------------MAPA------------------------------------------*/
+.conteiner-buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  padding: 10px auto;
+}
+
+.btn--participar {
+  background-color: red;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  color: white;
+  font-weight: bolder;
+  font-size: 33px;
+  padding: 30px;
+}
+
+.btn--participar:hover {
+  -webkit-box-shadow: 5px 5px 10px yellow inset;
+          box-shadow: 5px 5px 10px yellow inset;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+.btn--donar {
+  background-color: green;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  color: white;
+  font-weight: bolder;
+  font-size: 33px;
+  padding: 30px;
+}
+
+.btn--donar:hover {
+  -webkit-box-shadow: 5px 5px 10px yellow inset;
+          box-shadow: 5px 5px 10px yellow inset;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+.btn--informacion {
+  background-color: blue;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  color: white;
+  font-weight: bolder;
+  font-size: 33px;
+  padding: 30px;
+}
+
+.btn--informacion:hover {
+  -webkit-box-shadow: 5px 5px 10px yellow inset;
+          box-shadow: 5px 5px 10px yellow inset;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+/*-----------------------------Extend---------------------------------------------------*/
+.conteiner-boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+.fundacion, .boton--anterior, .boton--siguiente, .boton--salir {
+  border: 5px solid brown;
+  background-color: royalblue;
+  width: 90px;
+  height: 40px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.boton--anterior {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  border-radius: 5px;
+}
+
+.boton--siguiente {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  border-radius: 5px;
+}
+
+.boton--salir {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  border-radius: 5px;
+}
+
+/*----------------------------------MIXIN--------------------------------------------------*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+footer .my-mixin {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  padding: 50px auto;
+  margin: 50px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .my-mixin:hover {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
